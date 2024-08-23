@@ -1,0 +1,12 @@
+NOTE POUR LA CERTIF
+
+tout mettre sur un seul notebook
+
+pour les trains/tests/splits/scores :
+le faire sur un échantillon random_state fixe
+
+df_train = data.sample(frac=0.1, random_state=42)
+
+Voting / Stacking(proba=True)
+
+S'inspirer de Ensemble_methods_Titanic
